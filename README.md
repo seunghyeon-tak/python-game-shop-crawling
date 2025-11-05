@@ -40,3 +40,9 @@ pip install -r requirements.txt
 MAPLELAND_BASE_URL=https://mapleland.gg/api/items?v=251031
 MAPLELAND_TRADE_URL=https://api.mapleland.gg/trade
 ```
+
+## 기능 정리
+
+**src/item_index_crawl.py**
+
+-> BASE에서 전체 아이템 JSON을 받아 itemCode 리스트만 뽑고 원본 인덱스를 파일로 저장(items_index.json) 해 둔다.
