@@ -377,4 +377,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# crawler data
+shop-crawler/src/data
+.json
+
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,macos,windows,visualstudiocode,venv
