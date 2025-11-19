@@ -380,5 +380,6 @@ $RECYCLE.BIN/
 # crawler data
 shop-crawler/src/data
 .json
+shop-crawler/data
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,macos,windows,visualstudiocode,venv
