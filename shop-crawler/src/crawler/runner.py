@@ -3,8 +3,8 @@ import time
 
 from dotenv import load_dotenv
 
-from fetch_items import fetch_items
-from fetch_trades import fetch_trades
+from .items import fetch_items
+from .trades import fetch_trades
 
 load_dotenv()
 

@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 
-from http_client import get_json
+from .http_client import get_json
 
 load_dotenv()
 

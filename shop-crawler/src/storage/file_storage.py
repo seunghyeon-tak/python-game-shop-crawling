@@ -13,6 +13,9 @@ def dedup_key(t: dict) -> str:
 
 
 def save_trades(trades: list):
+    """
+    NDJSON, CSV 저장
+    """
     day = datetime.date.today().isoformat()
     path = os.path.join(DATA_DIR, f"trades_{day}.ndjson")
 

@@ -2,6 +2,9 @@ from datetime import datetime, timezone
 
 
 def judge_popularity(trades: list, now=None):
+    """
+    인기도 계산
+    """
     now = now or datetime.now(timezone.utc)
 
     def dt(s):

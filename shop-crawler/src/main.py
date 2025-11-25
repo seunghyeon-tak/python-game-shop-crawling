@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
 
-from crawl_mapleland import crawl_all
-from popularity import judge_popularity
-from storage import save_trades
+from crawler.runner import crawl_all
+from analysis.popularity import judge_popularity
+from storage.file_storage import save_trades
 
 load_dotenv()
 
